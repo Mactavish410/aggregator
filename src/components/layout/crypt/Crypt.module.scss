@@ -1,0 +1,19 @@
+@import '/src/assets/styles/variables';
+
+.main {
+	@include block33;
+	h2 {
+		text-align: center;
+	}
+	// div {
+	// 	padding: 0 5px;
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	justify-content: space-between;
+	// 	gap: 9px;
+	// }
+}
+.aa {
+	width: 100%;
+	height: 100%;
+}

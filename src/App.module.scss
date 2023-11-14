@@ -1,0 +1,10 @@
+@import 'src/assets/styles/variables';
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+}
