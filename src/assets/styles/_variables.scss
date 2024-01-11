@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600;700&display=swap');
+
+$def-font: 'Roboto Mono', monospace;
+
+$color-green: #99efb3;
+$color-blue: #304eeb;
+$color-orange: #ff8800;
+$color-purple: #f35af6;
+
+$text-color: #fff;
+$color-block: #1b1c20;
+$bg-color: #000;
+
+@mixin block33 {
+	width: 32%;
+	height: 500px;
+	border-radius: 10px;
+	background-color: $color-block;
+	padding: 10px;
+}
+
+@mixin block66 {
+	width: 65%;
+	height: 500px;
+	border-radius: 10px;
+	background-color: $color-block;
+	padding: 10px;
+}
